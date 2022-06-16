@@ -117,3 +117,61 @@ button         {
     color: hsl(179, 100%, 13%);
     
 }
+
+
+@media  (max-width:700px)   {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 50px auto;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+
+    button {
+        background-color: hsl(0, 0%, 95%);
+        border-radius: 25px;
+        border: 2px solid hsl(0, 0%, 95%);
+        align-items: left;
+        margin-top: 60px;
+        padding: 8px;
+        cursor: pointer;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        width: 60%;
+    }
+
+}
+
+
+@media  (max-width:376px)   {
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 50px auto;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+
+    button {
+        background-color: hsl(0, 0%, 95%);
+        border-radius: 25px;
+        border: 2px solid hsl(0, 0%, 95%);
+        align-items: left;
+        margin-top: 60px;
+        padding: 8px;
+        cursor: pointer;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        width: 60%;
+    }
+
+}
