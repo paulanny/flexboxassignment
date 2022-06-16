@@ -1,0 +1,119 @@
+*       {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background-color: hsl(0, 0%, 95%);
+}
+
+main    {
+    display: flex;
+    /*flex-direction:row;*/
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+div     {
+    padding: 30px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+img     {
+    width: 40px;
+    align-items: left;
+}
+
+.sedans     {
+    background-color: hsl(31, 77%, 52%);
+    
+}
+
+
+.Suvs       {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.Luxury     {
+    background-color: hsl(179, 100%, 13%);
+}
+
+p           {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 27px;
+}
+
+
+h3          {
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+button         {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 25px;
+    border: 2px solid hsl(0, 0%, 95%);
+    align-items: left;
+    margin-top: 60px;
+    padding: 8px;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+   width: 80%;
+    
+
+}
+
+.sedans button:hover    {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+
+.Suvs button:hover    {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color:hsl(184, 100%, 22%) ;
+    color: hsl(0, 0%, 95%);
+}
+
+
+.Luxury button:hover    {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+.sedans button      {
+    color: hsl(31, 77%, 52%);
+    
+}
+
+
+.Suvs button        {
+    color:hsl(184, 100%, 22%) ;
+    
+}
+
+.Luxury button            {
+    color: hsl(179, 100%, 13%);
+    
+}
